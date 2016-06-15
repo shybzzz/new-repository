@@ -1,0 +1,15 @@
+
+.boundary.line .legend-item div {
+    background-color: red;
+    height: 4px;
+}
+
+.shatsk-boundary.line .legend-item div {
+    background-color: rgb(0, 115, 76);
+    height: 4px;
+}
+
+.lakes.fill .legend-item div {
+    border: 1px solid rgb(17, 55, 124);
+    background-color: rgb(115, 178, 255);
+}

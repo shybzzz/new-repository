@@ -1,0 +1,86 @@
+/*body {*/
+/*font-size: small;*/
+/*}*/
+
+#map-canvas {
+    height: 440px;
+    background-color: black;
+}
+
+a, a:hover, a:visited {
+    color: rgb(0, 115, 76);
+    font-weight: bold;
+
+}
+
+.nav .dropdown-toggle .caret {
+    border-top-color: #163E26;
+    border-bottom-color: #163E26;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+h2, h4 {
+    color: #163E26
+}
+
+.row {
+    padding-bottom: 8px;
+}
+
+.nav .open > a,
+.nav .open > a:focus, .nav .open > a:hover, .dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+    border-color: #163E26;
+    background: rgb(0, 115, 76);
+}
+
+.nav .dropdown-toggle:hover .caret, .nav .dropdown-toggle:focus .caret {
+    border-top-color: #163E26;
+    border-bottom-color: #163E26;
+}
+
+.panel-body {
+    max-height: 390px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.panel {
+    max-height: 440px;
+}
+
+.legend {
+    display: table;
+}
+
+.legend .legend-item {
+    width: 50px;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 6px;
+}
+
+.legend .legend-label {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.legend.line .legend-item div {
+    width: 32px;
+}
+
+.legend.fill .legend-item div {
+    width: 32px;
+    height: 16px;
+}
+
+.bioindicator-image {
+    text-align: center;
+}
+
+.bioindicator-image img {
+    display: inline;
+}
